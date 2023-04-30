@@ -16,7 +16,7 @@ for(let x = 0; x < ages.length; x++){
 
     averageAges += ages[x];
 }
-averageAges /= averageAges/ages.length
+averageAges /= ages.length
 console.log(`This is the average of the ages array: ${averageAges}`)
 
 //2.
@@ -159,7 +159,7 @@ This function will end up taking the cash invested on a property,
 then taking the cashflow of the property and finding the cash on cash return which is annual cashflow / invested and will return that value.
 */
 let cashOnCash = (cashflow, invested) => (cashflow / invested * 100);
-let cashflow = 750;
+let cashflow = 750*12;
 let invested = 25000;
 
 console.log(`cashflow: ${cashflow}, total amount invested ${invested}, cash on cash return = ${cashOnCash(cashflow, invested)}%`)
