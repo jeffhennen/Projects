@@ -492,7 +492,7 @@ class RealEstateProperty{
             }else{
 
                 selection--;
-                this.cashFlow -= incomes[selection].monthlyIncome;
+                this.cashFlow -= this.incomes[selection].monthlyIncome;
                 this.incomes.splice(selection, 1);
                 break;
             }
