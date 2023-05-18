@@ -1,0 +1,2 @@
+<script type='module' src="UnitTests/DeckTest.js"></script>
+    <script type='module' src="UnitTests/PlayerTest.js"></script>
