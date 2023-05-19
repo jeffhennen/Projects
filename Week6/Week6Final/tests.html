@@ -13,11 +13,18 @@
     <script type="module" src="Scripts/Deck.js"></script>
     <script type="module" src="Scripts/Player.js"></script>
     <script type="module" src="Scripts/War.js"></script>
-    <script>mocha.setup('bdd')</script>
-    <script type="module" src="UnitTests/CardTest.js"></script> 
-    <script type="module" src="UnitTests/DeckTest.js"></script>
-    <script type="module" src="UnitTests/PlayerTest.js"></script>
-    <script>mocha.run();</script>
+    <script>
+        mocha.setup("bdd");
+    </script>
+    <script type="module" src="UnitTests/CardTest.js"></script>
+      <script type="module" src="UnitTests/DeckTest.js"></script>
+      <script type="module" src="UnitTests/PlayerTest.js"></script>
+      <!-- Set the type module in the script below and because Es modules are deffered by default, which delays the test from running.  
+          Workaround is to run the mocka.checkLeaks()-->
+    <script type="module">
+        mocha.checkLeaks();
+        mocha.run();
+    </script>
 
 </body>
 </html>
