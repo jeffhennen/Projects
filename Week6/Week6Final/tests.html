@@ -9,12 +9,14 @@
     <div id = "fixtures"></div>
     <script src="node_modules/mocha/mocha.js"></script>
     <script src="node_modules/chai/chai.js"></script>
-    <script>mocha.setup('bdd')</script>
     <script type="module" src="Scripts/Card.js"></script>
     <script type="module" src="Scripts/Deck.js"></script>
     <script type="module" src="Scripts/Player.js"></script>
     <script type="module" src="Scripts/War.js"></script>
-    <script type='module' src="test/CardTest.js"></script> 
+    <script>mocha.setup('bdd')</script>
+    <script type="module" src="UnitTests/CardTest.js"></script> 
+    <script type="module" src="UnitTests/DeckTest.js"></script>
+    <script type="module" src="UnitTests/PlayerTest.js"></script>
     <script>mocha.run();</script>
 
 </body>
