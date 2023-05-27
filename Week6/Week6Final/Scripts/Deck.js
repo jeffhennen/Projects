@@ -1,5 +1,3 @@
-import Card from './Card.js';
-
 class Deck{
 
     constructor(){
