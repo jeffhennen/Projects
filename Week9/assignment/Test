@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <title>Document</title>
+</head>
+<body  class="mb-5">
+    <div class="container bg-primary pb-5 pl-0 pr-0">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark ps-5 ">
+            <a class="navbar-brand fs-4 fw-bolder pe-3" href="index.html">
+                <img class="d-inline-block" src="https://logos-world.net/wp-content/uploads/2022/06/Blizzard-Logo.png"  width="75" height="45" alt=""> Blizzard News
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controle="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="WorldofWarcraft.html">World of Warcraft</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="DiabloIV.html">Diablo 4</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Overwatch2.html">Overwatch 2</a>
+                    </li>                
+                </ul>
+            </div>
+        </nav>
+        <div class="top_banner_elements">
+            <h1>Overwatch 2 News I have found</h1>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Overwatch_2_full_logo.svg/1200px-Overwatch_2_full_logo.svg.png" height="50%" width="50%">
+        </div>
+        <div class="news_articles_container">
+            <h2>News Articles</h2>
+            <div class="news_article_row">
+                <div class="news_article">
+                    <h4>The fall of PvE mode</h4>
+                    <a href="https://kotaku.com/aaron-keller-overwatch-2-pve-mode-story-missions-pvp-1850455562">Kotaku covering this travesty</a>
+                    <p>The game director Aaron Keller goes over why this was a canned feature for overwatch 2</p>
+                </div>
+                <div class="news_article">
+                    <h4>youtube video of pve mode destruction</h4>
+                    <a href="https://www.youtube.com/watch?v=xYAa-aMYqxc">YongYea news on overwatch 2</a>
+                    <p>This youtuber goes over the details of why this was a canceled feature</p>
+                </div>
+            </div>
+        </div>
+        <div class="youtube_container">
+            <h2>Youtube video</h2>
+            <div class="container_row">
+                <iframe width="560" height="315" 
+                    src="https://www.youtube.com/embed/gjUEPcWkCt8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+        <div class="reactions">
+            <h2>My Reactions</h2>
+            <div class="container_row">
+                <img src="https://media.tenor.com/0ij_6IMvGTgAAAAM/wtf-wth.gif">
+                <img src="https://media.makeameme.org/created/we-got-bamboozled.jpg">
+            </div>
+        </div>  
+</div>
+</body>
+</html>
